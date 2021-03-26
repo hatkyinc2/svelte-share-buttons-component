@@ -9,34 +9,34 @@
 </script>
 
 <style>
-.ssbc-button__link,
-.ssbc-button__icon {
+:global(.ssbc-button__link,
+.ssbc-button__icon) {
   display: inline-block;
 }
 
-.ssbc-button__link {
+:global(.ssbc-button__link) {
   text-decoration: none;
   color: #fff;
 }
 
-.ssbc-button {
+:global(.ssbc-button) {
   transition: 25ms ease-out;
   padding: 0.75em;
 }
 
-.ssbc-button__icon :global(svg) {
+:global(.ssbc-button__icon) :global(svg) {
   width: 1em;
   height: 1em;
   margin: 0;
   vertical-align: middle;
 }
 
-.ssbc-button__icon--fill {
+:global(.ssbc-button__icon--fill) {
   fill: #fff;
   stroke: none;
 }
 
-.ssbc-button__icon--outline {
+:global(.ssbc-button__icon--outline) {
   fill: none;
   stroke: #fff;
 }
