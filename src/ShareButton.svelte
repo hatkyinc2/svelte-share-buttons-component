@@ -42,7 +42,7 @@
 }
 </style>
 
-<a class="ssbc-button__link link exernal" {href} target="_blank" rel="noopener" aria-label={ariaLabel}>
+<a class="ssbc-button__link link external" {href} target="_blank" rel="noopener" aria-label={ariaLabel}>
   <div class="ssbc-button {classes}">
     <div aria-hidden="true" class="ssbc-button__icon" class:ssbc-button__icon--fill={fill} class:ssbc-button__icon--outline={!fill}>
       <slot></slot>
